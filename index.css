@@ -1,0 +1,72 @@
+body{
+    padding: 0;
+    margin: 0;
+
+}
+
+.container{
+    width: 80%;
+    margin: 50px auto;
+}
+.card-1{
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+
+}
+
+.card-1-content{
+    width: 50%;
+}
+h1{
+    width:60% ;
+    color:  hsl(300, 43%, 22%);
+    font-size: 30px;
+    font-weight: 900;
+}
+.paragraph{
+    color: hsl(300, 14%, 62%);
+}
+.card-1-contentwo{
+    line-height: 30px;
+    display: flex;
+    flex-direction: column;
+   
+}
+.rating{
+ display: flex;
+ flex-direction: row;
+ align-items: center;
+ gap: 30px;
+ padding: 10px;
+ margin-bottom: 15px;
+ 
+
+}
+#one{
+    background-color: hsl(300, 24%, 96%);
+    border-radius: 10px;
+    padding: 3px;
+    height: 15%;
+    position: relative;
+    right: 40px;
+
+}
+#two{
+    background-color: hsl(300, 24%, 96%);
+    border-radius: 10px;
+    padding: 3px;
+    height: 15%;
+
+
+}
+#three{
+    background-color: hsl(300, 24%, 96%);
+    border-radius: 10px;
+    padding: 3px;
+    height: 15%;
+    position: relative;
+    left: 40px;
+
+}
+
